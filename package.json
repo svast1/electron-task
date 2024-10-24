@@ -2,10 +2,22 @@
   "name": "electron-task",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron .",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0",
+    "electron-prebuilt-compile": "33.0.2"
+  },
+  "dependencies": {
+    "electron-forge": "^5.2.4",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
+  }
 }
