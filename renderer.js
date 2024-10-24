@@ -8,7 +8,7 @@ const saveUserBtn = document.getElementById('saveUserBtn');
 const cancelBtn = document.getElementById('cancelBtn');
 
 addUserBtn.addEventListener('click', () => {
-    userForm.style.display = 'block';
+    userForm.style.display = 'flex';
 });
 
 cancelBtn.addEventListener('click', () => {

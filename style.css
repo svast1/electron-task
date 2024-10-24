@@ -31,3 +31,48 @@ h1 {
 #userTable th {
   background-color: #f2f2f2;
 }
+
+#addUserBtn, #saveUserBtn, #cancelBtn {
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.formContent h2 {
+    margin-bottom: 20px;
+}
+
+
+.formContent label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formContent input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 12px;
+    margin-right: 50%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.formContent input:focus {
+  border-color: grey; 
+  outline: none;
+}
